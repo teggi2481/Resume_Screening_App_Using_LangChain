@@ -59,7 +59,6 @@ def main():
                 )
 
             store_resume_analysis(
-                resume_text,
                 analysis,
                 os.path.splitext(uploaded_file.name)[0]
             )
