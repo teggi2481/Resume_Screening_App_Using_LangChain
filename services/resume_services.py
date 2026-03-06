@@ -18,7 +18,7 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(working_dir)
 
 DOCUMENTS_DIR = os.path.join(working_dir, DOCUMENTS_DIR)
-VECTOR_STORE_DIR = os.path.join(working_dir, VECTOR_STORE)
+VECTOR_STORE_DIR = os.path.join(parent_dir, VECTOR_STORE)
 temp_file_path = os.path.join(working_dir, "temp.txt")
 
 def initialize_vector_store(embedding_model):
